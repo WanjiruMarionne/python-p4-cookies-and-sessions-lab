@@ -35,7 +35,7 @@ $ pipenv install && pipenv shell
 $ npm install --prefix client
 $ cd server
 $ flask db upgrade
-$ python seed.py
+$ python3 seed.py
 ```
 
 You can work on this lab by running the tests with `pytest -x`. It will also be
@@ -43,7 +43,7 @@ helpful to see what's happening during the request/response cycle by running the
 app in the browser. You can run the Flask server with:
 
 ```console
-$ python app.py
+$ python3 app.py
 ```
 
 And you can run React from the root directory in another terminal with:
